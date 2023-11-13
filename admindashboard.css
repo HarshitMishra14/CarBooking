@@ -1,0 +1,139 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center align the content in the body */
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left; /* Reset text alignment for content within the container */
+}
+/* Style for the Customer Details section */
+h2 {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style for the error message in case of an exception */
+.error-message {
+  color: red;
+  text-align: center;
+}
+/* Style for the "Add a New Car" section */
+h2 {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+form {
+  text-align: center;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the "View Bookings" section */
+h2 {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style for alternating row colors in the table */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style for the error message in case of an exception */
+.error-message {
+  color: red;
+  text-align: center;
+}
+
+/* Add any additional styling you need */
+
+/* Add any additional styling you need */
+
+/* Media queries for responsive design */
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table th, table td {
+    display: block;
+  }
+
+  table th {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+  }
+
+  table td {
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+  }
+
+  table tr {
+    margin-bottom: 10px;
+  }
+}

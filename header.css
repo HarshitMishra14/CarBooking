@@ -1,0 +1,47 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background color and font for the entire page */
+
+
+/* Style the header */
+.header {
+  background-color:blue;
+  color:#333;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 36px;
+}
+
+.header img {
+  width: 80%;
+  max-height: 150px;
+}
+
+/* Style the menu */
+.menu ul {
+  list-style: none;
+  text-align: center;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.menu ul li {
+  display: inline;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.menu ul li a:hover {
+  background-color: #555;
+}

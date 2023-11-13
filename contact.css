@@ -1,0 +1,90 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a background color and font for the entire page */
+body {
+  background-color:#fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Style the main content */
+h1 {
+  background-color:#fff;
+  color:#333;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 24px;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-container {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.contact-info {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 15px;
+}
+
+span {
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .contact-form {
+    flex-direction: column;
+  }
+
+  .form-container {
+    margin-bottom: 20px;
+  }
+
+  .contact-info {
+    flex-direction: column;
+  }
+}

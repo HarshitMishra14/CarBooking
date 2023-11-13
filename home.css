@@ -1,0 +1,78 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the page */
+body {
+  background-color:#fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+/* Style for the service section */
+.services-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.service {
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for service images */
+.service img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for service titles */
+.service h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Style for service descriptions */
+.service p {
+    font-size: 0.9em;
+}
+
+/* Additional styles as needed */
+
+@media screen and (max-width: 900px) {
+    .home-banner {
+        padding: 80px 0;
+    }
+
+    .home-banner h1 {
+        font-size: 30px;
+    }
+
+    .service {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .service-image {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .service-details h3 {
+        font-size: 18px;
+    }
+
+    .service-details p {
+        font-size: 14px;
+    }
+}

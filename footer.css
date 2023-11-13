@@ -1,0 +1,12 @@
+/* Style the footer */
+.footer {
+  background-color:blue;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
